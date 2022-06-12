@@ -96,7 +96,7 @@ import com.cnm.clicknshare.UserTest;
 	//MaintainSettingTest.updateMaintainSettingTest(driver);
 	//AssetTest.createAssetTest(driver);
     //AssetTest.updateAssetTest(driver);
-	//ProfileTest.updateProfileTest(driver);
+	ProfileTest.updateProfileTest(driver);
 	//LogoutTest.clickLogoutTest(driver); 
 	//ChangePasswordTest.updateChangePassswordTest(driver);
 	//SecureSettingTest.createSecureSettingTest(driver);
@@ -119,12 +119,18 @@ import com.cnm.clicknshare.UserTest;
 			Thread.sleep(2000);
 			driver.findElement(By.id("password")).sendKeys("rubaet1@R");
 			Thread.sleep(2000);
-			driver.findElement(By.className("bigger-110")).click();
 			
+			//driver.findElement(By.id("rc-anchor-container")).click();
+			//Thread.sleep(2000);
+			
+			driver.findElement(By.className("bigger-110")).click();
 			Thread.sleep(2000);
 			
 			driver.findElement(By.className("user-info")).click();
 			Thread.sleep(2000);
+			
+			
+			
 			driver.findElement(By.xpath("//span[contains(.,'Logout')]")).click();
 			
 			Thread.sleep(2000);
