@@ -75,7 +75,7 @@ import com.cnm.clicknshare.UserTest;
 	//ProcedureTest.updateProcedure(driver);
 	//PhasesTest.createPhases(driver);
 	//PhasesTest.updatePhases(driver);
-	RequirementsTest.createRequirements(driver);
+	//RequirementsTest.createRequirements(driver);
 	//RequirementsTest.updateRequirements(driver);
 	//ActSettingTest.createActSettingTest(driver);
 	//ActSettingTest.updateActSettingTest(driver);
