@@ -43,8 +43,6 @@ public class ModelTest {
 			driver.findElement(By.cssSelector(".fa-save")).click();
 			Thread.sleep(2000);
 			
-
-			
 			
 		
 			}catch(Exception e) {

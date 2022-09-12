@@ -146,7 +146,7 @@ import com.cnm.clicknshare.UserTest;
 		
 		
 			final String DRIVER_NAME = "webdriver.chrome.driver";
-			final String DRIVER_URL =  "F:\\My Work\\Selenium\\selenium-java-3.141.59\\chromedriver_win32\\chromedriver.exe";
+			final String DRIVER_URL =  "F:\\My Work\\Work Tools\\Selenium\\selenium-java-3.141.59\\chromedriver_win32\\chromedriver.exe";
 			
 			System.setProperty(DRIVER_NAME, DRIVER_URL);
 			WebDriver driver = new ChromeDriver();

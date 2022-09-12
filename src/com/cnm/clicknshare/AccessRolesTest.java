@@ -304,11 +304,6 @@ public class AccessRolesTest {
 		    //driver.findElement(By.cssSelector("#table_click_doc > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr:nth-child(3) > td > div > button")).click();
 		    //Thread.sleep(2000);
 		    
-		   
-		    
-		    
-		    
-		    
 		    driver.findElement(By.cssSelector("#myTab > li:nth-child(4) span")).click();
 		    Thread.sleep(2000);
 		    

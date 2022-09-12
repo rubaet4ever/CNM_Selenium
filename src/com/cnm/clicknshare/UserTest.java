@@ -60,8 +60,7 @@ public class UserTest {
 		/*	driver.findElement(By.cssSelector("#myTab > li:nth-child(2) > a")).click();
 		    Thread.sleep(2000);*/
 			
-		/*	
-		    
+		/*	    
 		    driver.findElement(By.cssSelector("#cnm_role_user_div .glyphicon")).click();
 		    Thread.sleep(2000);
 			
