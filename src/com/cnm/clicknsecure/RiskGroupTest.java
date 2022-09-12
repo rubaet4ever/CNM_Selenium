@@ -45,9 +45,7 @@ public class RiskGroupTest {
 			 Thread.sleep(2000);
 			 driver.findElement(By.className("select2-search__field")).sendKeys(Keys.ENTER);
 			 Thread.sleep(2000);
-			   
-			
-			 
+		
 		     
 			 driver.findElement(By.linkText("Description")).click();
 		     Thread.sleep(2000);
@@ -111,9 +109,6 @@ public class RiskGroupTest {
 			 Thread.sleep(2000);
 			 driver.findElement(By.className("select2-search__field")).sendKeys(Keys.ENTER);
 			 Thread.sleep(2000);
-			   
-			
-			 
 		     
 			 driver.findElement(By.linkText("Description")).click();
 		     Thread.sleep(2000);

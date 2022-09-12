@@ -166,8 +166,6 @@ public class SecureSettingTest {
 			 driver.findElement(By.xpath("//form[@id='likelihood_form_submit']/div/div/div[2]/input")).sendKeys("Act");
 			 Thread.sleep(2000);
 			
-		
-			
 			 driver.findElement(By.cssSelector(".col-sm-12:nth-child(1) .panel-heading span")).click();
 		     Thread.sleep(2000);
 		     driver.findElement(By.xpath("//div[@id='descLikelihoodEdit']/div/div[2]")).click();

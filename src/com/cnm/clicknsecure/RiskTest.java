@@ -459,9 +459,7 @@ public class RiskTest {
 			 driver.findElement(By.cssSelector("#evaluatedlevel_form_submit .fa")).click();
 			 Thread.sleep(2000);
 		     
-		     
-		     
-	
+		   
 			}catch(Exception e) {
 				e.printStackTrace();
 				driver.quit();
