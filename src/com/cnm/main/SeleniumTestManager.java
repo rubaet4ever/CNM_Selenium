@@ -41,6 +41,7 @@ import com.cnm.clicknshare.HomepageTest;
 import com.cnm.clicknshare.ModelTest;
 import com.cnm.clicknshare.SubOrganizationTest;
 import com.cnm.clicknshare.UserTest;
+import com.cnm.report.ExtentReportsWithTestNG;
 
     public class SeleniumTestManager {
     	ExtentReports extent = new ExtentReports();
@@ -121,6 +122,7 @@ import com.cnm.clicknshare.UserTest;
 	//RiskTest.createRiskTest(driver);
     //RiskTest.updateRiskTest(driver);
 	//logout(driver);
+	ExtentReportsWithTestNG.createExtentReportsWithTestNG(driver);
   
 	}
 

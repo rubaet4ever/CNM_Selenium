@@ -44,7 +44,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.6.0</version>
+			<version>1.5.3</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -64,11 +64,7 @@
 			<version>5.0.9</version>
 		</dependency>
 
-		<dependency>
-			<groupId>TransMedia</groupId>
-			<artifactId>TransMedia</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
     </dependencies>   
                  
                  
